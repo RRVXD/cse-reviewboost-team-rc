@@ -9,9 +9,9 @@ Assuming you already cloned or downloaded all the files (cse-reviewboost-team-rc
 3. Start the Apache and MySQL. After that, click the Admin in MySQL, you will be redirected to phpMyAdmin into your default browser.
 4. Click the import and chose user.sql in the database folder of (cse-reviewboost-team-rc's folder) then click go.
 5. If it errors, just manually input the following database and tables below.
-
+_________________________________________________________________________
    Database: `user_info`
- ------------------------------------------------------------------------  
+ _________________________________________________________________________ 
    CREATE TABLE `user_admin` (
   `username` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL
@@ -20,7 +20,7 @@ Assuming you already cloned or downloaded all the files (cse-reviewboost-team-rc
   INSERT INTO `user_admin` (`username`, `password`) VALUES
 ('adminclyde', 'adminclyde'),
 ('adminrafael', 'adminrafael');
- ------------------------------------------------------------------------  
+_________________________________________________________________________ 
 CREATE TABLE `user_extend` (
   `username` varchar(50) NOT NULL,
   `first_name` varchar(50) NOT NULL,
@@ -41,7 +41,7 @@ INSERT INTO `user_extend` (`username`, `first_name`, `last_name`, `email`, `pass
 ('eee', 'ee', 'ee', 'ee@ee.ee', 'ee', 'Monthly', '2023-05-07 04:19:14', 'ee', 'Gcash', ''),
 ('qq', 'qq', 'qq', 'qq@qq.com', 'qq', 'Monthly', '2023-05-07 04:07:24', 'qq', 'Gcash', 'Done'),
 ('we', 'we', 'we', 'we@we.ew', 'we', 'Monthly', '2023-05-07 04:18:03', 'we', 'Gcash', 'Done');
- ------------------------------------------------------------------------  
+_________________________________________________________________________
 CREATE TABLE `user_info` (
   `username` varchar(50) NOT NULL,
   `first_name` varchar(50) NOT NULL,
@@ -86,11 +86,13 @@ INSERT INTO `user_info` (`username`, `first_name`, `last_name`, `email`, `passwo
 ('zx', 'zx', 'zx', 'zx@zx.x', 'zx', 'Monthly', NULL, NULL, '2023-05-06 21:05:04', 'zx', 'Gcash'),
 ('zxx', 'zx', 'zx', 'zx@zx.x', 'zxx', 'Monthly', NULL, NULL, '2023-05-06 21:06:01', 'zx', 'Gcash'),
 ('zz', 'zz', 'zz', 'zz@zz.zz', 'zz', 'Monthly', NULL, NULL, '2023-05-06 19:44:45', 'zz', 'Palawan');
- ------------------------------------------------------------------------  
+_________________________________________________________________________
 6. Now, you're good to go to our websites. If you want to access free plan page visit this (http://localhost/cse-reviewboost-team-rc/free-plan-page/)
    If you want to access premium plan page visiti this (http://localhost/cse-reviewboost-team-rc/premium-plan-page/)
+   Sample Account for Premium Account - Username: aa Password: aa
    If you want to access admin page visiti this (http://localhost/cse-reviewboost-team-rc/admin-page/)
-7. I uploaded video demonstration, feel free to view to it to understand more how it works. 
+   Sample Account for Admin Account - Username: adminclyde Password: adminclyde
+7. Here is the link for video demonstration (https://drive.google.com/file/d/1o5a5Npjrmr6127YiTefRlOpHizPcCLPk/view?usp=sharing), feel free to watch it to understand more how it works. 
 8. If you have any questions or clarifications, just email me (clydecutimar2@gmail.com).
 
 That would be all. Thank you and God bless us all.
